@@ -1,1 +1,60 @@
+# ==============================================================================
+# Python & Jupyter Notebook Gitignore
+# Optimized for Machine Learning and Data Science Learning Repository
+# ==============================================================================
+
+# --- Python Byte-code / Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebooks & IPython ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Data & Machine Learning Artifacts ---
+# Ignore large dataset and binary files inside data directories (keeps directories)
+**/data/**/*.csv
+**/data/**/*.tsv
+**/data/**/*.parquet
+**/data/**/*.xlsx
+**/data/**/*.zip
+**/data/**/*.gz
+**/data/**/*.tar.gz
+**/data/**/*.tgz
+**/data/**/*.json
+
+# Ignore serialized model files
+**/models/**/*.pkl
+**/models/**/*.pickle
+**/models/**/*.joblib
+**/models/**/*.h5
+**/models/**/*.pt
+**/models/**/*.pth
+**/models/**/*.onnx
+**/models/**/*.pb
+
+# --- OS & Editor Metadata ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
 f1-winner-predictor
